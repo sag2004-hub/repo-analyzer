@@ -1,12 +1,71 @@
-# React + Vite
+# 🚀 Repo Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Repo Analyzer**! This web app, built with React and Vite, helps you explore and analyze GitHub repositories with ease.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📦 Fetches and displays repository information from the GitHub API
+- 🕒 Shows a list of recent commits
+- 🐞 Displays repository issues and pull requests
+- 📊 Provides a breakdown of languages used in the repository
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React**: A JavaScript library for building user interfaces
+- ⚡ **Vite**: A fast build tool for modern web development
+- 🐙 **GitHub API**: Used to fetch repository data
+
+## 📝 How to Use
+
+1. Paste a GitHub repository URL (e.g., `https://github.com/facebook/react`) into the input field.
+2. Click the **Analyze** button to view the repository details.
+
+## 🚦 Getting Started
+
+Follow these steps to get **Repo Analyzer** running on your local machine:
+
+### Prerequisites
+
+- 🟢 Node.js
+- 📦 npm
+
+### Installation
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/your_username/repo-analyzer.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd repo-analyzer
+   ```
+3. Install dependencies
+   ```sh
+   npm install
+   ```
+
+## 🏃 Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+- Starts the app in development mode
+- Open [http://localhost:5173](http://localhost:5173) to view it in your browser
+
+### `npm run build`
+
+- Builds the app for production to the `dist` folder
+- Optimizes the build for best performance
+
+### `npm run preview`
+
+- Runs a local server to preview the production build
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+Made with ❤️ by the Repo Analyzer team
